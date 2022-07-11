@@ -1,6 +1,6 @@
 function findVovels(value) {
     var data = value.match(/[aeiou]/gi);
-    return data === null ? 0 : data;
+    return data === null ? 0 : data.length;
 
 }
 
